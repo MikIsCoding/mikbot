@@ -20,23 +20,45 @@ then type this:
 ```git
 git clone https://github.com/MikIsCoding/mikbot
 ```
+----------
+Windows
+------
 
-after, u might want to modify one thing in the code,
+go on to install the node js installer at nodejs.org
 
-```javascript
-let client = new teeworlds.Client("localhost", 8303, "mikbot");
-```
 
-modify the localhost to your servep (ip), port and name of your bot
+for git install it at git-scm.com
 
+
+go on and do this:
+----------------
+windows+r
+
+'cmd'
+
+
+```git clone https://github.com/MikIsCoding/mikbot.git```
+
+---------
+now, you will need to use the 'make.sh' script(on linux) or the 'make.bat' for windows
+-----------
+Linux: ./make.sh
+
+Windows: just double click it with explorer
+------
 
 after all of that you can finally run the code:
+-----------
 
-``` node main.js ```
+Linux: ```./main 'nameofbot' 'ip' 'port'```
+
+Windows: (on cmd) .\main-win.exe
+
+--------------
+
+02/01/2025: windows version is finally here!
 
 
-
-dont froget that the version for windows is almost here.
-
+next is for the mac version..
 
 
